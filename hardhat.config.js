@@ -9,10 +9,10 @@ module.exports = {
       accounts: [process.env.PRIVATE_KEY]
     },
     hardhat: {
-      forking: {
-        url: process.env.JSON_RPC_URL,
-        blockNumber: 6155200 
-      }
+      // forking: {
+      //   url: process.env.JSON_RPC_URL,
+      //   blockNumber: 6155200 
+      // }
     }
   }
 };
